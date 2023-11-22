@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+@keyframes blink {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+p,a {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
+
+#container-entrada{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+#container-entrada, #fake-form{
+    text-align: center;
+}
+
+.escudo{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+#fogo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-left: 70px;
+}
+
+
+#fake-form{
+    margin-top: 220px;
+    flex: 0.6 1 10%;
+    justify-content: center;
+}
+
+#entrada-senha{
+    padding: 0.5em;
+    margin: 1em;
+}
+
+img {
+    height: 500px;
+    width: 700px;
+}
