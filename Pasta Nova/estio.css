@@ -1,0 +1,18 @@
+img {
+    height: 500px;
+    width: 700px;
+}
+    
+  
+  #senha {
+    margin-bottom: 10px;
+  }
+  
+  #botaoSenha {
+    background-image: url('caminho/da/outra-imagem.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px;
+    cursor: pointer;
+  }
+  
